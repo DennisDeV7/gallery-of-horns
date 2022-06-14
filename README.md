@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Gallery of Horns
+
+This project displays images and information of horned animals. You will be able to filter the images by number of horns and chose your favorite image.
+
+## Collaborators
+
+- Dennis DeVries
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
