@@ -8,6 +8,31 @@ This project displays images and information of horned animals. You will be able
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Time Estimate
+
+### Feature 1: Display Images
+
+Estimated time: 1 hour\
+Start time: 5:30pm EST\
+Finish time: 5:50pm EST\
+Total time: 20 min
+
+### Feature 2: Allow users to vote for their favorite beast
+
+Estimated time: 30 min\
+Start time: 7:25pm EST\
+Finish time: 7:51pm EST\
+Total time: 26 min
+
+### Feature 3: Bootstrap
+
+Estimated time: 30 min\
+Start time: 7:58pm EST\
+Finish time: 8:27pm EST\
+Total time: 29 min/
+
+**********************************
+
 ## Available Scripts
 
 In the project directory, you can run:
