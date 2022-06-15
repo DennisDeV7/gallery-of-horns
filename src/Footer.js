@@ -4,7 +4,7 @@ class Main extends React.Component {
   render () {
     return (
       <>
-        <p>Maintained by Dennis DeVries</p>
+        <p>Created by Dennis DeVries</p>
       </>
     )
   }

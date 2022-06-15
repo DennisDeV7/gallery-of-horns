@@ -8,9 +8,9 @@ class App extends React.Component {
   render(){
     return (
       <>
-      <Header/>
-      <Main/>
-      <Footer/>
+        <Header/>
+        <Main/>
+        <Footer/>
       </>
     );
   }
