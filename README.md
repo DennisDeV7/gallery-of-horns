@@ -10,6 +10,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Time Estimate
 
+### lab 03: Feature 1: Modal
+
+Estimated time: 1 hour\
+Start time: 7:30pm EST\
+Finish time: 10pm EST\
+Total time: 2.5 hrs
+
 ### Feature 1: Display Images
 
 Estimated time: 1 hour\
