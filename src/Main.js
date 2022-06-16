@@ -1,12 +1,11 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
-import data from './data.json';
 import './Main.css'
 
 class Main extends React.Component {
   render () {
     let beasts = [];
-    data.forEach((horn, idx) => {
+    this.props.data.forEach((horn, idx) => {
       beasts.push(
         <HornedBeast
           title={horn.title}
@@ -15,6 +14,7 @@ class Main extends React.Component {
           imageTitle={horn.title}
           description={horn.description}
           key={idx}
+          handleOnShowModal={this.props.handleOnShowModal}
         />
       )
     })

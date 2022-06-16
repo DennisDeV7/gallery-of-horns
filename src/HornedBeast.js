@@ -17,17 +17,20 @@ class HornedBeast extends React.Component {
     })
   }
 
+  handlePicClick = () => {
+    this.props.handleOnShowModal(this.props.image_url);
+  }
+
   render () {
     return (
-      // <article>
-      //   <h2>{this.props.title}</h2>
-      //   <p>❤️ {this.state.votes}</p>
-      //   <img src={this.props.image_url} onClick={this.handleVotes} alt={this.props.alt} title={this.props.title}></img>
-      //   <p>{this.props.description}</p>
-      //   <Button>Button</Button>
-      // </article>
       <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={this.props.image_url} onClick={this.handleVotes} alt={this.props.alt} title={this.props.title}/>
+      <Card.Img 
+        variant="top" 
+        src={this.props.image_url} 
+        onClick={this.handlePicClick} 
+        alt={this.props.alt} 
+        title={this.props.title}
+      />
       <Card.Text>❤️ {this.state.votes}</Card.Text>
       <Card.Body>
         <Card.Title>{this.props.title}</Card.Title>
