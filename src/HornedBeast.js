@@ -17,9 +17,9 @@ class HornedBeast extends React.Component {
     })
   }
 
-  handlePicClick = () => {
-    this.props.handleOnShowModal(this.props.image_url);
-  }
+  // handlePicClick = () => {
+  //   this.props.handleOnShowModal(this.props.image_url);
+  // }
 
   render () {
     return (
@@ -27,7 +27,7 @@ class HornedBeast extends React.Component {
       <Card.Img 
         variant="top" 
         src={this.props.image_url} 
-        onClick={this.handlePicClick} 
+        onClick={() => {this.props.openModal(this.props.beast)}} 
         alt={this.props.alt} 
         title={this.props.title}
       />
