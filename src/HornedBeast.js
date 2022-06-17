@@ -13,13 +13,11 @@ class HornedBeast extends React.Component {
 
   handleVotes = () => {
     this.setState({
-      votes: this.state.votes + 1
+      votes: this.state.votes + 1,
     })
   }
 
-  // handlePicClick = () => {
-  //   this.props.handleOnShowModal(this.props.image_url);
-  // }
+  
 
   render () {
     return (
@@ -35,7 +33,7 @@ class HornedBeast extends React.Component {
       <Card.Body>
         <Card.Title>{this.props.title}</Card.Title>
         <Card.Text>{this.props.description}</Card.Text>
-        <Button variant="primary">Button</Button>
+        <Button onClick={this.handleVotes} variant="primary">Button</Button>
       </Card.Body>
     </Card>
     )
