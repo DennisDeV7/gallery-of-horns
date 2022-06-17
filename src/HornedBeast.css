@@ -1,22 +1,24 @@
-/* article {
+.card {
   border: 1px solid gray;
-  padding: 1vw;
+  padding: 3vw;
   margin-bottom: 1vw;
   width: 16%;
+  display:flex;
+  justify-content: space-around;
 }
 
-article img {
+.card img {
   width: 100%;
 }
 
-article p {
+.card p {
   font-size: 11px;
   margin: auto;
   display: inline-block;
   margin-bottom: .5 rem;
 }
 
-article p:last-of-type {
+.card p:last-of-type {
   padding-left: 1rem;
   cursor: pointer;
 }
@@ -25,6 +27,6 @@ article p:last-of-type:hover {
   color: purple;
 }
 
-.article-button {
+.card-button {
   margin: .2 rem .1vw;
-} */
+}
