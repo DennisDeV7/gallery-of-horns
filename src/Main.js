@@ -11,6 +11,7 @@ class Main extends React.Component {
           alert={beast.alt}
           imageTitle={beast.title}
           description={beast.description}
+          horns={beast.horns}
           key={idx}
           openModal={this.props.openModal}
           beast = {beast}
